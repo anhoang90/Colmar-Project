@@ -7,27 +7,31 @@ body{
 /*Nav Bar*/
 header{
     display: flex;
-   
-    padding: 16px;
-    margin:8px;
-    background-color: white;
-    width: 100%;
-    top: 0;
+    position: inline-flex;
+    flex-direction: space-between;
+}
 
+.logo-name{
+    font-size: 2rem;
+}
+.Academy{
+    color: rgb(192, 186, 186);
+}
 
+nav{
+  margin-left: 650px;
 }
 
 li{
-    display: inline-block;
-    font-size: 1.25rem;  
+    display: inline;
+    font-size: 1.5rem;  
+    padding-left:16px;
 }
 .banner{
-    width: 100%;
-    height: auto;
-    margin: 8px 24px;
+    width: 80%;
     top: 50px;
+    margin: 32px 24px;
 }
-
 
 .flex-container{
     background-color: gray;
@@ -39,7 +43,8 @@ li{
 }
 
 .text-box-1{
-    background-color: green;
+    font-size: 2.5rem;
+    background-color: gray;
     width: 60%;
     
 }
