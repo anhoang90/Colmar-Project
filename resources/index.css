@@ -84,3 +84,24 @@ table, th, td {
 .image-orientation{
     padding-top: 34px;
 }
+ 
+/* Box 3*/
+.box-3{
+    padding-top: 32px;
+    background-color: rgb(221, 216, 216);
+    text-align: center;
+}
+.flex-container-box-3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.mini-box{
+    width: 432px;
+}
+
+.img-box-3{
+    height: auto;
+    width: 75%;
+}
